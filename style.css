@@ -1,0 +1,12 @@
+#pane-side div[aria-label="Chat list"] {
+  transition: 200ms filter linear;
+  filter: blur(0px);
+}
+body.whatsblur_blur #pane-side div[aria-label="Chat list"] {
+  filter: blur(5px);
+  transition: 200ms filter linear;
+}
+body.whatsblur_blur #pane-side:hover div[aria-label="Chat list"] {
+  filter: blur(0px);
+  transition: 200ms filter linear;
+}

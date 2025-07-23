@@ -1,0 +1,22 @@
+{
+  "name": "What's Blur",
+  "description": "Blur recent chats on WhatsApp Web and keep your conversations private.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "css": ["style.css"],
+      "js": ["script.js"],
+      "matches": ["https://web.whatsapp.com/*"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["blur-icon.svg", "unblur-icon.svg"],
+      "matches": ["https://web.whatsapp.com/*"]
+    }
+  ],
+  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" }
+}
