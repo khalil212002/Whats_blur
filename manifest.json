@@ -1,6 +1,6 @@
 {
   "name": "What's Blur",
-  "description": "Blur recent chats on WhatsApp Web and keep your conversations private.",
+  "description": "Protect WhatsApp Web privacy! Blurs chats, names, & photos. Hover to reveal. Easy toggle on page.",
   "version": "1.0.0",
   "manifest_version": 3,
   "permissions": ["storage"],
